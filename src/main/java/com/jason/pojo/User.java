@@ -7,6 +7,15 @@ public class User {
     private String loginname;
     private String password;
     private String username;
+    private Long id;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public User() {
     }
